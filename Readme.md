@@ -12,7 +12,7 @@ It uses a **Free Movie API** to fetch and display movie data dynamically.
 - ❤️ **Wishlist Page** – Save your favorite movies for later.  
 - 📝 **Sign Up Page** – Create a new account.  
 - 🔑 **Login Page** – Secure login to access your account.  
-- 🎥 **Watch Movie Page** – Watch the movie, see **cast names**, and read the **plot summary**.  
+- 🎥 **Watch Movie Page** – see **cast names**, and read the **plot summary**.  
 
 ---
 
