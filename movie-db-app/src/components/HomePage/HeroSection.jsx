@@ -11,7 +11,7 @@ const HeroSection = () => {
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <h1 className="hero-title">Galaxy Runners</h1>
+          <h1 className="hero-title">Cineverse</h1>
           <p className="hero-description">
             In a universe on the brink of collapse, a renegade crew must pull
             off the most daring heist of all time.
