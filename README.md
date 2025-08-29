@@ -1,12 +1,54 @@
-# React + Vite
+# 🎬 Cineverse – Movie Database Website  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cineverse is a **movie database web app** built with **React, JavaScript, and CSS**.  
+It uses a **Free Movie API** to fetch and display movie data dynamically.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+- 🏠 **Home Page** – Displays a collection of movies from the API.  
+- 🔍 **Search Page** – Search by **movie title** or **actor name**.  
+- ❤️ **Wishlist Page** – Save your favorite movies for later.  
+- 📝 **Sign Up Page** – Create a new account.  
+- 🔑 **Login Page** – Secure login to access your account.  
+- 🎥 **Watch Movie Page** – see **cast names**, and read the **plot summary**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+- ⚛️ **React** – UI development  
+- 🎨 **HTML & CSS** – Styling  
+- 📜 **JavaScript** – Logic and API handling  
+- 🌐 **Free Movie API** – Fetch movie data  
+- 🛣️ **React Router** – Navigation  
+
+---
+## 🚧 Challenges & Learnings
+
+- 🌐 Since it was my second time working with an API, understanding how to fetch and handle dynamic data wasn’t easy at first, but I learned a lot through the process.
+
+- 🎥 Building the movie details page (navigating after clicking on the More Info button in the Home/Search pages) was challenging, especially handling dynamic routes and passing movie data correctly.
+
+- 🔑 For authentication (Sign Up & Login), I implemented functionality where:
+
+- Users can enter their data in the Sign Up Page, which gets saved in an array.
+
+
+---
+
+## 🚀 Getting Started
+
+-  Follow these steps to run the project on your local machine:
+
+- Download / Clone the repository : git clone (https://github.com/nourKhattab-nour/ALX_-graduation_project/)
+
+- Navigate to the project folder: cd movie-db-app
+
+- Install dependencies: npm install
+
+- Run the development server: npm run dev
+
+- Open the link shown in the terminal (usually http://localhost:5173/) in your browser.
+
