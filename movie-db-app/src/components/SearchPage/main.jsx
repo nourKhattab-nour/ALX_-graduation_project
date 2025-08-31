@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; 
 import { searchMovies } from "../../services/api"; 
-import SearchSection from "./searchSection";
+import SearchSection from "./SearchSection";
 
-const main = () => {
+const Main = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -93,4 +93,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Main;
