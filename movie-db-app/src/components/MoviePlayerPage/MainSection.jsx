@@ -31,6 +31,7 @@ const MainSection = () => {
     fetchMovieDetails();
   }, [id]);
 
+
   if (loading)
     return <div className="loading-message">Loading movie details...</div>;
   if (error) return <div className="error-message">Error: {error}</div>;

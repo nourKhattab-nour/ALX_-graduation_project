@@ -20,6 +20,13 @@ body {
   padding: 0 20px;
 }
 
+.plot-section,
+.cast-section {
+  margin-left: 124px;
+  flex-direction: column;
+  display: flex;
+}
+
 /* Header Styles */
 .header {
   background-color: rgba(30, 41, 59, 0.5);
@@ -88,8 +95,25 @@ body {
 
 /* Hide navigation on mobile */
 @media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .nav-menu {
-    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .auth-buttons button {
+    width: 100%;
   }
 }
 
@@ -1097,6 +1121,7 @@ body {
   background-color: #1e293b;
   padding: 16px;
   border-radius: 12px;
+  width: 84%;
 }
 
 .cast-avatar {
@@ -1149,6 +1174,7 @@ body {
   align-items: flex-start;
   padding: 16px 0;
   border-bottom: 1px solid #334155;
+  width: 40%;
 }
 .detail-item span {
   margin-left: 6px;
