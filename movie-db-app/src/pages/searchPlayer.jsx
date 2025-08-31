@@ -3,7 +3,7 @@ import Header from "../components/HomePage/Header"
 import Footer from "../components/Footer/Footer";
 import Main from "../components/SearchPage/Main";
 
-const searchPlayer = () => {
+const SearchPlayer = () => {
   return (
     <div>
       <Header />
@@ -13,4 +13,4 @@ const searchPlayer = () => {
   );
 }
 
-export default searchPlayer
+export default SearchPlayer;

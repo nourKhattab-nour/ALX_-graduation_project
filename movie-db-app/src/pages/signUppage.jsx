@@ -3,7 +3,7 @@ import Header from "../components/HomePage/Header";
 import Footer from "../components/Footer/Footer";
 import Main from "../components/SignUpPage/main";
 
-const signUppage = () => {
+const SignUppage = () => {
   return (
     <div>
       <Header/>
@@ -13,4 +13,4 @@ const signUppage = () => {
   )
 }
 
-export default signUppage
+export default SignUppage;

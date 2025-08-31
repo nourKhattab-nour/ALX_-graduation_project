@@ -6,8 +6,8 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import MoviePlayer from "./pages/MoviePlayer";
-import SearchPlayer from "./pages/searchPlayer";
-import SignUpPage from "./pages/SignUpPage";
+import SearchPlayer from "./pages/SearchPlayer";
+import SignUpPage from "./pages/SignUppage";
 
 function App() {
   const [count, setCount] = useState(0)
