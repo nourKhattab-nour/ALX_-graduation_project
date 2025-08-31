@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../components/HomePage/Header"
-import Footer from "../components/Footer/Footer";
-import Main from "../components/SearchPage/MainSection";
+import Header from "../components/HomePage/Header.jsx"
+import Footer from "../components/Footer/Footer.jsx";
+import Main from "../components/SearchPage/MainSection,jsx";
 
 const SearchPlayer = () => {
   return (

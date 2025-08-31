@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/HomePage/Header";
-import Hero from "../components/HomePage/HeroSection";
-import Main from "../components/HomePage/mainSection";
-import Footer from "../components/Footer/Footer";
+import Header from "../components/HomePage/Header.jsx";
+import Hero from "../components/HomePage/HeroSection.jsx";
+import Main from "../components/HomePage/MainSection.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
 const HomePage = () => {
   return (

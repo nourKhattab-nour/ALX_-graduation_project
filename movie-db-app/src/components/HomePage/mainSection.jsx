@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import { searchMovies } from "../../services/api";
 import { useNavigate } from "react-router-dom";
 
-const mainSection = () => {
+const MainSection = () => {
   const [trendingMovies, setTrendingMovies] = useState([]);
   const [comingSoonMovies, setComingSoonMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const getTrendingMovies = async () => {
     console.log("Getting trending movies...");
@@ -40,7 +40,7 @@ const mainSection = () => {
       }
 
       console.log("Total trending movies found:", allMovies.length);
-      return allMovies.slice(0, 6); 
+      return allMovies.slice(0, 6);
     } catch (error) {
       console.error(" Error in getTrendingMovies:", error);
       return [];
@@ -66,7 +66,6 @@ const mainSection = () => {
     }
   };
 
-
   useEffect(() => {
     const fetchMovies = async () => {
       console.log("🎬 Starting to fetch movies...");
@@ -74,7 +73,6 @@ const mainSection = () => {
       setError(null);
 
       try {
-        
         const trending = await getTrendingMovies();
         console.log("Setting trending movies:", trending);
         setTrendingMovies(trending);
@@ -102,7 +100,6 @@ const mainSection = () => {
     navigate(`/movie/${movieId}`);
   };
 
-  
   if (loading) {
     return (
       <div className="main-content">
@@ -117,7 +114,6 @@ const mainSection = () => {
     );
   }
 
-  
   if (error) {
     return (
       <div className="main-content">
@@ -146,7 +142,6 @@ const mainSection = () => {
   return (
     <div>
       <div className="main-content">
-        
         <div className="movie-section">
           <h2 className="section-title">Trending Now</h2>
 
@@ -193,7 +188,6 @@ const mainSection = () => {
           )}
         </div>
 
-       
         <section className="movie-section">
           <h2 className="section-title">Coming Soon</h2>
 
@@ -239,4 +233,4 @@ const mainSection = () => {
   );
 };
 
-export default mainSection;
+export default MainSection;
