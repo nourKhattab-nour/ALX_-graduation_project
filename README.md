@@ -25,3 +25,6 @@ It uses a **Free Movie API** to fetch and display movie data dynamically.
 - 🛣️ **React Router** – Navigation  
 
 ---
+## Webiste like
+https://nourkhattab-nour.github.io/ALX_graduation_project/
+---
